@@ -1,0 +1,24 @@
+/*******************************************************************************
+ * Customised Styles.
+ ******************************************************************************/
+
+// Typography
+
+td {
+  color: var(--global-text-color);
+}
+
+//How to
+div.howto {
+  padding: 15px;
+  border: 0.1px solid var(--global-border-app-color);
+}
+
+div .blogalert{
+    color: black;
+    padding: 10px;
+    strong{
+      color: grey;
+      font-weight: bold;
+    }
+}

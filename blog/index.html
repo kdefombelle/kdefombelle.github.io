@@ -84,10 +84,24 @@ pagination:
 
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
+            <!-- {% for category in post.categories %}
             <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
               <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
+              {% endfor %} -->
+              {% for category in post.categories %}
+                {% case category %}
+                  {% when "java", "maven", "javafx" %}
+                  <span class="badge badge-primary">{{ category }}</span>
+                  {% when "go" %}
+                  <span class="badge badge-success">{{ category }}</span>
+                  {% when "javascript", "vue", "npm" %}
+                  <span class="badge badge-warning">{{ category }}</span>
+                  {% when "linux" %}
+                  <span class="badge badge-secondary">{{ category }}</span>
+                  {% else %}
+                  <span class="badge badge-dark">{{ category }}</span>
+                {% endcase %}
+            {% endfor %}
           {% endif %}
     </p>
     </li>
