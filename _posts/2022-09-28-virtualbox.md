@@ -1,14 +1,11 @@
 ---
 layout: post
 title:	"VirtualBox"
-date:	 222-09-28 00:00:00 +0800
+date:	 2022-09-28 00:00:00 +0800
 categories: linux
 ---
 
-Vue.js is a great and trending framework.
-If you followed my first article [Vue.js Getting Started](../../2021/vue-getting-started) you have touched already how it is simple to scaffold and start developping a front end application with rich HTML and styling. 
-
-In this second chapter on Vue.js we will discuss the **routing capability**.
+This post will go through tyhe main elements to install a CentOS image on VirtualBox to get a real Linux system on your (other) OS.  
 
 ## Install CentOS on VirtualBox
 Install Oracle VirtualBox from https://www.virtualbox.org/ 
@@ -64,6 +61,7 @@ hostnamectl set-hostname centos7.local
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/2022-09-28-vbox-network-adapter.png">
     </div>
 </div>
+<br/>
 
 ### Autoboot of Network Interface
 /etc/sysconfig/network-scripts/ifcfg-eth0 > ONBOOT=yes
