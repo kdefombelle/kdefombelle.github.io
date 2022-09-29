@@ -4,8 +4,8 @@ title:  "Micronaut OpenAPI"
 date:   2021-03-01 00:00:00 +0800
 categories: framework java maven openapi micronaut 
 ---
-As we all know [Spring][spring] there is now a lightweigth and claimed more efficient framework called [Micronaut][micronaut]
-The key difference is it instruments the code AOT (ahead of time) and so ensure less memory footprint (less caching, less dymanic proxy to be created) and so a quicker start time.
+As we all know [Spring][spring] there is now a lightweigth and claimed more efficient framework called [Micronaut][micronaut].
+The key difference is it instruments the code AOT (ahead of time) ensuring less memory footprint (less caching, less dymanic proxy to be created) and so a quicker start time.
 
 <div class="alert alert-success d-flex align-items-center" role="alert">
   <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
