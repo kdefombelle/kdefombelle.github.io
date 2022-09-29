@@ -91,14 +91,6 @@ mvnw mn:run
 ```
 
 ### Maven Dependencies
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> image optimisation
-=======
->>>>>>> merge image optim and minor changes
-=======
->>>>>>> ff22a9bd014e6f9bdd540cee88f173c63a09f8dd
-
 In in your maven pom.xml
 - add compile dependencies
 
@@ -156,13 +148,6 @@ micronaut:
 ```
 
 ## Document the API
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> image optimisation
-=======
->>>>>>> merge image optim and minor changes
-=======
->>>>>>> ff22a9bd014e6f9bdd540cee88f173c63a09f8dd
 ```java
 @Operation(
     summary = "Double value",
@@ -216,14 +201,6 @@ micronaut:
 
 ## Visualise
 To access swagger you can run your app and go to URL http://localhost:8080/swagger-ui
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> image optimisation
-=======
->>>>>>> merge image optim and minor changes
-=======
->>>>>>> ff22a9bd014e6f9bdd540cee88f173c63a09f8dd
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/2021-03-01-micronaut-swagger.png">
