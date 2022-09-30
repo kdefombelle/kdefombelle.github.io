@@ -28,8 +28,8 @@ share disk https://www.linuxshelltips.com/install-virtualbox-guest-additions/
 
 ### Add a sudoer
 adding user as sudoer as depicted on https://linuxize.com/post/how-to-add-user-to-sudoers-in-centos/
-add username  ALL=(ALL) NOPASSWD:ALL at the end of /etc/sudoers that you can edit via visudo
-You can scaffold a new app to test **Vue router** or use one you already have:
+add username  `ALL=(ALL) NOPASSWD:ALL` at the end of `/etc/sudoers` 
+you can edit via `visudo`
 
 ### Install handy packages
 install netstat, ifconfig
