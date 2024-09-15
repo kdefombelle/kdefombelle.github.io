@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Karim de Fombelle",
+    "label": "IT Manager",
+    "image": "",
+    "email": "karim@defombelle@gmail.com",
+    "url": "https://kdefombelle.github.io",
+    "summary": "An experienced IT Manager (consulting, software house) in international environments.",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Murex",
+      "position": "Production & Architecture Manager",
+      "startDate": "2022",
+      "endDate": "Now",
+      "summary": "Team manager (~15 engineers including externals) in Murex integration modules, chiefly MxML, Reporting module and API Integration and data migration stream leader for various projects in APAC.",
+      "highlights": ["Team stabilisation", "Upskilling", "Productivity increase"]
+    },
+    {
+      "name": "Murex",
+      "position": "Integration Manager",
+      "startDate": "2014",
+      "endDate": "2021",
+      "summary": "Team manager (~15 engineers including externals) in Murex integration modules, chiefly MxML, Reporting module and API Integration and data migration stream leader for various projects in APAC.",
+      "highlights": ["Capitalisation", "Productivity"]
+    },
+    {
+      "name": "Murex",
+      "position": "Engineering Manager",
+      "startDate": "2007",
+      "endDate": "2014",
+      "summary": "Technical leader of a development team (6 persons over 2 sites: Paris and Beirut) for Murex software company.",
+      "highlights": ["CI (Bamboo/Jenkins, Sonar, Nexus)","JavaSE", "Maven", "CDI", "Camel", "Spring", "Multithreading"]
+    },
+    {
+      "name": "Capgemini",
+      "position": "Project Manager",
+      "startDate": "2005",
+      "endDate": "2007",
+      "summary": "Gaz Reseau Distribution de France GRDF web site for gas providers 20 collaborators. Lyonnaise des eaux : web site publishing data from water meters telereport, 5 collaborators. Architecture from prototype to go live, SIT, UAT, follow up with the client and reporting.",
+      "highlights": ["JEE server (Weblogic)", "Portlets", "EJB", "Spring", "iBatis", "Oracle 10g"]
+    },
+    {
+      "name": "Capgemini",
+      "position": "Senior Software Engineer",
+      "startDate": "2003",
+      "endDate": "2004",
+      "summary": "Conception (UML) and service layer realisation in J2EE. I had also to maintain the physical data model, participate in integration, optimisation and deployment.",
+      "highlights": ["JEE (JBoss)", "JBPM", "Hibernate"]
+    },
+    {
+      "name": "CNRS",
+      "position": "Software Engineer",
+      "startDate": "2001",
+      "endDate": "2003",
+      "summary": "Java developer in a bioinformatic research project, The developed Java program proposes a role for unknown genes computing cross references between scientific experiments data (DNA chips array) and an annotated gene ontology.",
+      "highlights": ["Relativity"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "INSA",
+      "location": "Lyon, France",
+      "area": "Software Development",
+      "studyType": "“Mastere” specialized in computer science",
+      "startDate": "2000",
+      "endDate": "2001"
+    },
+    {
+      "institution": "Universite Nice Sophia Antipolis",
+      "location": "Nice, France",
+      "area": "Sciences",
+      "studyType": "Master of Sciences with High Honours",
+      "startDate": "1995",
+      "endDate": "2000"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certified cloud practicioner",
+      "date": "2023",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/73a3b15b-fa44-4f6e-933a-48a68b9490a1/linked_in_profile",
+      "icon": "fa-solid fa-location-dot"
+    },    
+    {
+      "name": "Leading your team through change",
+      "date": "2023",
+      "issuer": "Prosci",
+      "url": "https://www.credly.com/badges/fd76f643-f99b-46c2-9791-7effece487c0/linked_in_profile",
+      "icon": "fa-solid fa-location-dot"
+    }
+  ],
+  "publications": [
+    {
+      "name": "THEA: ontology-driven analysis of microarray data",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2004",
+      "url": "https://hal.archives-ouvertes.fr/hal-00170450",
+      "summary": "The developed Java program proposes a role for unknown genes computing cross references between scientific experiments data (DNA chips array) and an annotated gene ontology."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Management",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Agile: Scrum, Kanban",
+        "Programming",
+        "Linux"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Nature",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Hiking",
+        "Diving",
+        "Running"
+      ]
+    }
+  ]
+}
